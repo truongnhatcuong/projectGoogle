@@ -30,7 +30,7 @@ const HomeSearch = () => {
     rounded-full hover:shadow-md transition-shadow sm:max-w-xl lg:max-w-2xl"
         onSubmit={handelsubmit}
       >
-        <AiOutlineSearch className="text-xl mr-4" />
+        <AiOutlineSearch className="text-xl mr-4" onClick={handelsubmit} />
         <input
           type="text"
           className="flex-grow focus:outline-none"

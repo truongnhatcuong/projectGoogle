@@ -14,8 +14,9 @@ const page = () => {
           width={300}
           height={100}
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
-          alt={""}
-          className="mb-3"
+          alt={"google"}
+          className="mb-3 w-[300px] h-[100px]"
+          priority={true}
         />
         <HomeSearch />
       </div>
